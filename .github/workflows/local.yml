@@ -1,6 +1,6 @@
-name: "Manual"
+name: "Local"
 
-run-name: "Manual - ${{ github.ref_name }}"
+run-name: "Local - ${{ github.ref_name }}"
 on:
   workflow_dispatch:
     inputs:
